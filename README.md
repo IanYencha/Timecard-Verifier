@@ -6,7 +6,7 @@ This is a tool I made for to verfiy timecards as part of job I have at school. I
 
 ### Input:
 - **Schedule spreadsheet (.xlxs)**: needs employees username/fullname as the first row and column before their shifts. Each shift needs a date, start, and end time. 
-- **Keys spreadsheet (.xlsx - could be another format with minor adjustments)**: needs username or full name, logon time (data + time) and logoff time (date + time)
+- **Keys spreadsheet (.xlsx - could be another format with minor adjustments)**: needs username or full name, logon time (date + time) and logoff time (date + time)
 
 ### Output:
 - **Formated Schedule spreadsheet (Verified.xlxs)**: Takes the schedule and highlights green for on time, yellow for late/left early, and red for no-show. If Yellow, the time they logon/logout will also be printed in col 7 and 8 respectivley. 
